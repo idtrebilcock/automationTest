@@ -24,6 +24,8 @@ public class BaseConfig {
 		WebDriverType type = WebDriverType.valueOf(browserType);
 		WebDriverFactory factory = WebDriverFactoryProvider.getFactory(type);
 		driver = factory.buildDriver();
+		driver.navigate().to(appURL);
+		driver.manage().window().maximize();
 		
 	}
 
