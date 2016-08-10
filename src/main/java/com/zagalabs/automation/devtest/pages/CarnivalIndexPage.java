@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.co.ivan.test.zagaLabs.automationTest.pages;
+package com.zagalabs.automation.devtest.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
